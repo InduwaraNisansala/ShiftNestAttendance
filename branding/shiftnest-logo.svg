@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+<g transform="translate(30,35) scale(.49)">
+<rect width="512" height="512" rx="112" fill="#182B49"/>
+<circle cx="246" cy="246" r="141" fill="none" stroke="#D4AF37" stroke-width="24"/>
+<path d="M246 152v94l-65 39" fill="none" stroke="#D4AF37" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="361" cy="366" r="80" fill="#182B49"/>
+<path d="m314 366 33 34 69-75" fill="none" stroke="#D4AF37" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="323" y="168" fill="#182B49" font-family="DejaVu Sans,sans-serif" font-size="112" font-weight="bold">ShiftNest</text>
+<text x="329" y="228" fill="#182B49" font-family="DejaVu Sans,sans-serif" font-size="33" letter-spacing="10">ATTENDANCE</text></svg>

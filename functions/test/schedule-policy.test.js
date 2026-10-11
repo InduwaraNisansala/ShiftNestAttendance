@@ -1,0 +1,5 @@
+const {test}=require('node:test'),assert=require('node:assert/strict'),p=require('../schedule-policy');
+const value=()=>({department:'Sales',date:'2026-10-07',kind:'working',reason:'Team meeting',checkIn:'08:30',checkOut:'17:00'});
+test('working hours are computed from validated same-day times',()=>{const n=p.validate(value(),'2026-10-07');assert.equal(n.workingMinutes,510);assert.match(p.body(n),/8 h 30 min/);});
+test('past, invalid date, wrong department and missing reason cannot publish',()=>{for(const patch of [{date:'2026-10-06'},{date:'2026-02-30'},{department:'Other'},{reason:''},{kind:'invalid'},{checkIn:'25:00'},{checkOut:'08:30'},{checkOut:'07:00'}])assert.throws(()=>p.validate({...value(),...patch},'2026-10-07'));});
+test('holiday notices require no hours and discard stale working times',()=>{const n=p.validate({...value(),department:'Hotel',kind:'holiday',checkIn:'',checkOut:''},'2026-10-07');assert.equal(n.workingMinutes,0);assert.equal(n.checkIn,'');assert.doesNotMatch(p.body(n),/Check In/);});

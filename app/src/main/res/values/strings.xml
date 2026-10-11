@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ShiftNestAttendance</string>
+    <string name="employee_attendance">Employee Attendance</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="select_employee_category">Select Employee Category</string>
+    <string name="login">LOGIN</string>
+</resources>

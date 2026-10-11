@@ -1,0 +1,598 @@
+App Settings	යෙදුම් සැකසුම්
+Settings	සැකසුම්
+Language	භාෂාව
+Current language: English	දැනට තෝරා ඇති භාෂාව: English
+Current language: Sinhala	දැනට තෝරා ඇති භාෂාව: සිංහල
+Language preference saved.	භාෂා සැකසුම සුරකින ලදී.
+Appearance	පෙනුම
+Dark • Navy & Gold	අඳුරු • නිල් සහ රන්
+Light • White & Navy	දීප්තිමත් • සුදු සහ නිල්
+Follow phone setting	දුරකථනයේ සැකසුම භාවිත කරන්න
+Appearance preference saved successfully.	පෙනුමේ සැකසුම සුරකින ලදී.
+‹ Back	‹ ආපසු
+Home	මුල් පිටුව
+OK	හරි
+Cancel	අවලංගු කරන්න
+Close	වසන්න
+Success	සාර්ථකයි
+Please check	කරුණාකර පරීක්ෂා කරන්න
+Retry	නැවත උත්සාහ කරන්න
+Confirm	තහවුරු කරන්න
+Remove	ඉවත් කරන්න
+Previous	පෙර
+Next	ඊළඟ
+Login	පිවිසෙන්න
+Logout	ඉවත් වන්න
+Employee Login	සේවක පිවිසුම
+Admin Login	පරිපාලක පිවිසුම
+Employee Dashboard	සේවක ප්‍රධාන පිටුව
+Admin Dashboard	පරිපාලක ප්‍රධාන පිටුව
+ShiftNest • Administration	ShiftNest • පරිපාලනය
+Employee List	සේවක ලැයිස්තුව
+Add Employee	සේවකයෙකු එක් කරන්න
+Edit Employee	සේවක තොරතුරු වෙනස් කරන්න
+Add Location	ස්ථානයක් එක් කරන්න
+Location Tracking	ස්ථාන නිරීක්ෂණය
+Admin Location Tracking	සේවක ස්ථාන නිරීක්ෂණය
+Attendance Report	පැමිණීමේ වාර්තාව
+Daily Attendance Report	දෛනික පැමිණීමේ වාර්තාව
+Attendance History	පැමිණීමේ ඉතිහාසය
+Leave Sheet	නිවාඩු ලේඛනය
+Leave Sheet / Approvals	නිවාඩු ලේඛනය / අනුමැතිය
+My Leave	මගේ නිවාඩු
+My leave details / approval status	මගේ නිවාඩු / අනුමැති තත්ත්වය
+My leave requests	මගේ නිවාඩු ඉල්ලීම්
+Notifications	දැනුම්දීම්
+Notifications / Alerts	දැනුම්දීම් / අවවාද
+Phone notification settings	දුරකථන දැනුම්දීම් සැකසුම්
+Retry notification registration	දැනුම්දීම් ලියාපදිංචිය නැවත උත්සාහ කරන්න
+Refresh notifications	දැනුම්දීම් යාවත්කාලීන කරන්න
+Refresh dashboard alerts	ප්‍රධාන පිටුවේ දැනුම්දීම් යාවත්කාලීන කරන්න
+Refresh leave sheet	නිවාඩු ලේඛනය යාවත්කාලීන කරන්න
+Refresh balance / approval status	නිවාඩු ශේෂය / අනුමැතිය යාවත්කාලීන කරන්න
+Refresh attendance / leave balance	පැමිණීම / නිවාඩු ශේෂය යාවත්කාලීන කරන්න
+Refresh attendance history	පැමිණීමේ ඉතිහාසය යාවත්කාලීන කරන්න
+Refresh employees	සේවක ලැයිස්තුව යාවත්කාලීන කරන්න
+Refresh locations	ස්ථාන යාවත්කාලීන කරන්න
+Refresh saved locations	සුරැකි ස්ථාන යාවත්කාලීන කරන්න
+Load attendance	පැමිණීමේ දත්ත ලබා ගන්න
+Reload daily report	දෛනික වාර්තාව නැවත ලබා ගන්න
+Daily summary / charts (To date)	අවසන් දිනයේ දෛනික සාරාංශය / ප්‍රස්තාර
+Download Leave Sheet PDF	නිවාඩු ලේඛනය PDF ලෙස බාගන්න
+Download PDF	PDF බාගන්න
+Share PDF	PDF බෙදාගන්න
+Download employee sheet PDF	සේවක ලේඛනය PDF ලෙස බාගන්න
+Filter by department	අංශය අනුව තෝරන්න
+All Employees	සියලු සේවකයින්
+Sales Officers	විකුණුම් නිලධාරීන්
+Office Staff	කාර්යාල සේවකයින්
+Hotel Staff	හෝටල් සේවකයින්
+Other departments	වෙනත් අංශ
+Sales Officer	විකුණුම් නිලධාරී
+Staff Officer	කාර්යාල නිලධාරී
+Hotel Officer	හෝටල් නිලධාරී
+Sales	විකුණුම්
+Office	කාර්යාලය
+Hotel	හෝටලය
+Other	වෙනත්
+All statuses	සියලු තත්ත්වයන්
+Select leave status	නිවාඩු තත්ත්වය තෝරන්න
+pending	අනුමැතිය බලාපොරොත්තුවෙන්
+approved	අනුමතයි
+rejected	ප්‍රතික්ෂේපයි
+Approve	අනුමත කරන්න
+Reject	ප්‍රතික්ෂේප කරන්න
+Chairman Sir's decision / note	සභාපතිතුමාගේ තීරණය / සටහන
+Enter the Chairman decision note	සභාපතිතුමාගේ තීරණය සටහන් කරන්න
+Ask Chairman Sir first, then record Approve or Reject. The employee receives the saved decision.	සභාපතිතුමාගෙන් විමසා අනුමත හෝ ප්‍රතික්ෂේප තීරණය සටහන් කරන්න. එය සේවකයාට පෙන්වනු ලැබේ.
+Tap a pending row to record Chairman Sir's decision.	සභාපතිතුමාගේ තීරණය සටහන් කිරීමට අනුමැතිය බලාපොරොත්තු වන පේළිය තෝරන්න.
+Your leave has been approved by Chairman Sir.	ඔබගේ නිවාඩුව සභාපතිතුමා විසින් අනුමත කර ඇත.
+Your leave has been rejected by Chairman Sir.	ඔබගේ නිවාඩුව සභාපතිතුමා විසින් ප්‍රතික්ෂේප කර ඇත.
+Waiting for Chairman Sir's approval.	සභාපතිතුමාගේ අනුමැතිය බලාපොරොත්තුවෙන්.
+Leave request submitted successfully. Waiting for Chairman Sir's approval.	නිවාඩු ඉල්ලීම යවා ඇත. සභාපතිතුමාගේ අනුමැතිය බලාපොරොත්තුවෙන්.
+Decision saved. Employee status updated; notification delivery is handled separately.	තීරණය සුරකින ලදී. සේවකයාගේ නිවාඩු තත්ත්වය යාවත්කාලීනයි. දැනුම්දීම වෙනම යවනු ලැබේ.
+This request has already been decided.	මෙම ඉල්ලීම සඳහා තීරණයක් දැනටමත් ලබා දී ඇත.
+A decision for this request is already being saved. Wait for its result.	මෙම ඉල්ලීමේ තීරණය සුරකිමින් පවතී. කරුණාකර රැඳී සිටින්න.
+Apply Leave	නිවාඩු ඉල්ලන්න
+Leave reason	නිවාඩු හේතුව
+Leave reason (required, up to 500 characters)	නිවාඩු හේතුව (අනිවාර්යයි, අක්ෂර 500 දක්වා)
+Enter a leave reason	නිවාඩු හේතුව ඇතුළත් කරන්න
+Submitting leave...	නිවාඩු ඉල්ලීම යවමින්...
+Checking leave eligibility...	නිවාඩු ලබාගත හැකිදැයි පරීක්ෂා කරමින්...
+Loading balance / approval status...	නිවාඩු ශේෂය / අනුමැතිය ලබාගනිමින්...
+Available. Enter a reason and submit for approval.	නිවාඩු ඉල්ලිය හැක. හේතුව ඇතුළත් කර අනුමැතිය සඳහා යවන්න.
+No leave requests yet.	තවම නිවාඩු ඉල්ලීම් නැත.
+No matching records.	ගැළපෙන වාර්තා නැත.
+No notifications yet.	තවම දැනුම්දීම් නැත.
+No annual leave balance available.	ලබාගත හැකි වාර්ෂික නිවාඩු ශේෂයක් නැත.
+This day is already booked.	මෙම දිනය දැනටමත් වෙන් කර ඇත.
+This day is already booked. Select another date.	මෙම දිනය දැනටමත් වෙන් කර ඇත. වෙනත් දිනයක් තෝරන්න.
+Past dates cannot be booked.	පසුගිය දිනයකට නිවාඩු ඉල්ලිය නොහැක.
+Select a valid leave date.	වලංගු නිවාඩු දිනයක් තෝරන්න.
+Leave cannot be taken on a holiday.	නිවාඩු දිනයක මෙම නිවාඩුව ලබාගත නොහැක.
+Leave cannot be taken on a company holiday.	ආයතනික නිවාඩු දිනයක මෙම නිවාඩුව ලබාගත නොහැක.
+Leave cannot be taken on a company holiday. Select another date.	ආයතනික නිවාඩු දිනයකි. වෙනත් දිනයක් තෝරන්න.
+Company holiday calendar is not confirmed for this date.	මෙම දිනය සඳහා ආයතනික නිවාඩු දින දර්ශනය තහවුරු කර නැත.
+Company holiday calendar is not confirmed for this date. Ask admin to confirm calendar coverage.	මෙම දිනයේ නිවාඩු දින දර්ශනය තහවුරු කර නැත. පරිපාලකගෙන් විමසන්න.
+Office / Hotel leave quota is awaiting company confirmation. Ask admin to enter the allowance for the selected year.	කාර්යාල / හෝටල් නිවාඩු ප්‍රමාණය තහවුරු කර නැත. අදාළ වසරේ ප්‍රමාණය ඇතුළත් කරන ලෙස පරිපාලකට දන්වන්න.
+Office/Hotel leave quota is awaiting company confirmation for this year.	මෙම වසරේ කාර්යාල / හෝටල් නිවාඩු ප්‍රමාණය තහවුරු කර නැත.
+Annual leave quota is not configured for this year.	මෙම වසරේ වාර්ෂික නිවාඩු ප්‍රමාණය සකසා නැත.
+The employee no longer has sufficient earned leave.	සේවකයාට ප්‍රමාණවත් නිවාඩු ශේෂයක් නැත.
+Attendance is already recorded for this day.	මෙම දිනයේ පැමිණීම දැනටමත් සටහන් කර ඇත.
+From date must be on or before To date.	ආරම්භක දිනය අවසන් දිනයට පෙර හෝ එම දිනය විය යුතුය.
+From date must be before To date.	ආරම්භක දිනය අවසන් දිනයට පෙර හෝ එම දිනය විය යුතුය.
+From date must be on or before To date. Change one of the dates.	ආරම්භක දිනය අවසන් දිනයට පෙර හෝ එම දිනය විය යුතුය. දිනයක් වෙනස් කරන්න.
+Future leave dates are allowed. From must be on or before To.	ඉදිරි නිවාඩු දින තෝරාගත හැක. ආරම්භක දිනය අවසන් දිනයට පෙර හෝ එම දිනය විය යුතුය.
+Attendance reports cannot include future dates.	පැමිණීමේ වාර්තාවට ඉදිරි දින ඇතුළත් කළ නොහැක.
+Select both dates.	දින දෙකම තෝරන්න.
+No leave requests match these dates, department and status. Change the filters before downloading.	මෙම දින, අංශය හා තත්ත්වයට ගැළපෙන නිවාඩු ඉල්ලීම් නැත. බාගැනීමට පෙර තේරීම් වෙනස් කරන්න.
+Leave sheet data is still loading. Wait for the result or tap Refresh leave sheet.	නිවාඩු දත්ත ලබාගනිමින් පවතී. රැඳී සිටින්න හෝ යාවත්කාලීන කරන්න.
+Loading leave sheet and balances...	නිවාඩු ලේඛනය හා ශේෂ ලබාගනිමින්...
+Loading leave balance...	නිවාඩු ශේෂය ලබාගනිමින්...
+Leave balance loading…	නිවාඩු ශේෂය ලබාගනිමින්...
+Leave balance unavailable	නිවාඩු ශේෂය ලබාගත නොහැක
+Leave balance unavailable while offline.	අන්තර්ජාලය නොමැතිව නිවාඩු ශේෂය ලබාගත නොහැක.
+Refresh leave balance before applying.	නිවාඩු ඉල්ලීමට පෙර ශේෂය යාවත්කාලීන කරන්න.
+Casual / Sick leave: #	අනියම් / අසනීප නිවාඩු: #
+Taken: # • Remaining: #	ලබාගත්: # • ඉතිරි: #
+Ask admin to configure this year’s allowance.	මෙම වසරේ නිවාඩු ප්‍රමාණය සකසන ලෙස පරිපාලකට දන්වන්න.
+Sales leave: 10 completed working days earn 1 leave.	විකුණුම් නිවාඩු: වැඩ කළ සම්පූර්ණ දින 10කට නිවාඩු 1ක්.
+Sales Officers: 10 completed working days earn 1 leave. Annual allowance is automatic; no manual quota fields are required.	විකුණුම් නිලධාරීන්: සම්පූර්ණ වැඩ දින 10කට නිවාඩු 1ක්. නිවාඩු ශේෂය ස්වයංක්‍රීයව ගණනය කෙරේ.
+Connection unavailable. Check internet and try again.	සම්බන්ධතාව නොමැත. අන්තර්ජාලය පරීක්ෂා කර නැවත උත්සාහ කරන්න.
+Request timed out. Refresh before trying again.	ඉල්ලීමේ කාලය අවසන් විය. නැවත උත්සාහ කිරීමට පෙර යාවත්කාලීන කරන්න.
+Please sign in again.	කරුණාකර නැවත පිවිසෙන්න.
+Access unavailable. Contact your administrator.	ප්‍රවේශය නොමැත. පරිපාලක අමතන්න.
+Service or record unavailable. Contact your administrator.	සේවාව හෝ වාර්තාව ලබාගත නොහැක. පරිපාලක අමතන්න.
+This record already exists. Check before retrying.	මෙම වාර්තාව දැනටමත් ඇත. නැවත උත්සාහ කිරීමට පෙර පරීක්ෂා කරන්න.
+Check the entered details and try again.	ඇතුළත් කළ තොරතුරු පරීක්ෂා කර නැවත උත්සාහ කරන්න.
+This action is unavailable. Refresh or contact your administrator.	මෙම ක්‍රියාව කළ නොහැක. යාවත්කාලීන කරන්න හෝ පරිපාලක අමතන්න.
+Too many requests. Please try again later.	ඉල්ලීම් වැඩිය. පසුව නැවත උත්සාහ කරන්න.
+Incorrect OTP. Check the code and try again.	OTP කේතය වැරදියි. පරීක්ෂා කර නැවත උත්සාහ කරන්න.
+OTP expired. Request a new code.	OTP කේතය කල් ඉකුත් වී ඇත. නව කේතයක් ඉල්ලන්න.
+Login failed. Check your details and try again.	පිවිසීම අසාර්ථකයි. තොරතුරු පරීක්ෂා කර නැවත උත්සාහ කරන්න.
+Enter a valid email address.	වලංගු ඊමේල් ලිපිනයක් ඇතුළත් කරන්න.
+Account disabled. Contact your administrator.	ගිණුම අක්‍රියයි. පරිපාලක අමතන්න.
+Too many attempts. Please try again later.	උත්සාහයන් වැඩිය. පසුව නැවත උත්සාහ කරන්න.
+Enter a valid phone number.	වලංගු දුරකථන අංකයක් ඇතුළත් කරන්න.
+Could not complete this action. Try again or contact your administrator.	මෙම ක්‍රියාව සම්පූර්ණ කළ නොහැකි විය. නැවත උත්සාහ කරන්න හෝ පරිපාලක අමතන්න.
+Check your internet connection and try again.	අන්තර්ජාල සම්බන්ධතාව පරීක්ෂා කර නැවත උත්සාහ කරන්න.
+Number not registered. Please contact your administrator.	මෙම අංකය ලියාපදිංචි කර නැත. පරිපාලක අමතන්න.
+This phone number is not registered as an active employee.	මෙම අංකය සක්‍රිය සේවකයෙකු ලෙස ලියාපදිංචි කර නැත.
+This phone number is already registered.	මෙම දුරකථන අංකය දැනටමත් ලියාපදිංචි කර ඇත.
+This phone number is already registered to another employee.	මෙම අංකය වෙනත් සේවකයෙකුට ලියාපදිංචි කර ඇත.
+Send OTP	OTP යවන්න
+Resend SMS OTP	SMS OTP නැවත යවන්න
+Verify OTP	OTP තහවුරු කරන්න
+Phone login	දුරකථන පිවිසුම
+Phone Number	දුරකථන අංකය
+Enter Phone Number	දුරකථන අංකය ඇතුළත් කරන්න
+Enter phone number	දුරකථන අංකය ඇතුළත් කරන්න
+Enter email or username	ඊමේල් හෝ පරිශීලක නාමය ඇතුළත් කරන්න
+Username / Email	පරිශීලක නාමය / ඊමේල්
+Admin Username	පරිපාලක පරිශීලක නාමය
+Password	මුරපදය
+Enter password	මුරපදය ඇතුළත් කරන්න
+Enter OTP	OTP ඇතුළත් කරන්න
+Enter the 6-digit OTP	ඉලක්කම් 6ක OTP කේතය ඇතුළත් කරන්න
+Request an OTP first.	පළමුව OTP කේතයක් ඉල්ලන්න.
+OTP request timed out. Please try again.	OTP ඉල්ලීමේ කාලය අවසන් විය. නැවත උත්සාහ කරන්න.
+Verifying OTP...	OTP තහවුරු කරමින්...
+OTP verified. Loading employee profile...	OTP තහවුරුයි. සේවක තොරතුරු ලබාගනිමින්...
+Checking registration...	ලියාපදිංචිය පරීක්ෂා කරමින්...
+Checking employee registration...	සේවක ලියාපදිංචිය පරීක්ෂා කරමින්...
+Checking registered employee...	ලියාපදිංචි සේවකයා පරීක්ෂා කරමින්...
+Checking employee registration. Please wait...	සේවක ලියාපදිංචිය පරීක්ෂා කරමින්. රැඳී සිටින්න...
+Checking whether admin registered this phone number...	මෙම අංකය පරිපාලක ලියාපදිංචි කර ඇත්දැයි පරීක්ෂා කරමින්...
+Registered employee found. Opening SMS verification...	සේවකයා ලියාපදිංචියි. SMS තහවුරු පිටුව විවෘත කරමින්...
+Enter the SMS code manually. If it has not arrived, use Resend SMS OTP.	SMS කේතය ඇතුළත් කරන්න. නොලැබුණේ නම් නැවත යවන්න.
+Return to login and enter your phone number.	පිවිසුම් පිටුවට ගොස් දුරකථන අංකය ඇතුළත් කරන්න.
+Admin access is not enabled. Contact your administrator.	පරිපාලක ප්‍රවේශය සක්‍රිය කර නැත. පරිපාලක අමතන්න.
+Admin access is disabled. Contact your administrator.	පරිපාලක ප්‍රවේශය අක්‍රියයි. පරිපාලක අමතන්න.
+Checking login...	පිවිසුම පරීක්ෂා කරමින්...
+Checking admin access...	පරිපාලක ප්‍රවේශය පරීක්ෂා කරමින්...
+Today's Attendance	අද පැමිණීම
+Check In	පැමිණීම සටහන් කරන්න
+Check Out	පිටවීම සටහන් කරන්න
+Checked in / working	පැමිණ ඇත / සේවයේ
+Checked out	පිටවී ඇත
+Not checked in	පැමිණීම සටහන් කර නැත
+You have not checked in today.	අද පැමිණීම සටහන් කර නැත.
+Please Check In first.	පළමුව පැමිණීම සටහන් කරන්න.
+No attendance records found.	පැමිණීමේ වාර්තා නැත.
+Check-in saved successfully. Location tracking has been requested; availability depends on phone permissions and location settings.	පැමිණීම සුරකින ලදී. ස්ථාන නිරීක්ෂණය දුරකථන අවසර හා සැකසුම් අනුව ක්‍රියාත්මක වේ.
+Attendance saved. Tracking could not start; check location permission.	පැමිණීම සුරකින ලදී. ස්ථාන නිරීක්ෂණය ඇරඹීමට අවසර පරීක්ෂා කරන්න.
+Save Employee	සේවකයා සුරකින්න
+Save Employee Changes	සේවක වෙනස්කම් සුරකින්න
+Save Location	ස්ථානය සුරකින්න
+Saving...	සුරකිමින්...
+Saving employee...	සේවකයා සුරකිමින්...
+Saving employee to the server...	සේවකයා සුරකිමින්...
+Saving employee changes to the server...	සේවක වෙනස්කම් සුරකිමින්...
+Saving location to the server...	ස්ථානය සුරකිමින්...
+Employee details updated successfully.	සේවක තොරතුරු යාවත්කාලීන කරන ලදී.
+Employee saved successfully. Open Employee List to view or edit the employee.	සේවකයා සුරකින ලදී. තොරතුරු බැලීමට හෝ වෙනස් කිරීමට සේවක ලැයිස්තුව විවෘත කරන්න.
+Location saved successfully.	ස්ථානය සුරකින ලදී.
+Employee Name	සේවක නම
+Employee number (optional)	සේවක අංකය (අනිවාර්ය නොවේ)
+Employee Role	සේවක තනතුර
+Work Location Type	සේවා ස්ථාන වර්ගය
+Fixed Location	ස්ථිර ස්ථානය
+No Fixed Location	ස්ථිර ස්ථානයක් නැත
+No fixed work location	ස්ථිර සේවා ස්ථානයක් නැත
+Assigned fixed work location	අනුයුක්ත ස්ථිර සේවා ස්ථානය
+Select a work location	සේවා ස්ථානය තෝරන්න
+Select the employee role.	සේවක තනතුර තෝරන්න.
+Select the employee's fixed work location	සේවකයාගේ ස්ථිර සේවා ස්ථානය තෝරන්න
+Search and select work location ▾	සොයා සේවා ස්ථානය තෝරන්න ▾
+Search / reload work locations	ස්ථාන සොයන්න / නැවත ලබාගන්න
+Search by name...	නමින් සොයන්න...
+No matching locations/options. Try another name.	ගැළපෙන ස්ථාන නැත. වෙනත් නමකින් සොයන්න.
+Search and select an assigned site before saving.	සුරැකීමට පෙර ස්ථානය සොයා තෝරන්න.
+Fixed work location is missing. Tap Search and select work location, then choose a site.	ස්ථිර ස්ථානය තෝරා නැත. ස්ථානය සොයා තෝරන්න.
+Choose Fixed Location before selecting a work site.	ස්ථානය තෝරාගැනීමට පෙර ස්ථිර ස්ථානය තෝරන්න.
+Choose Fixed Location or No Fixed Location.	ස්ථිර ස්ථානයක් ඇතිද නැතිද යන්න තෝරන්න.
+No Fixed Location: no site selection is required.	ස්ථිර ස්ථානයක් නැති නිසා ස්ථාන තේරීම අවශ්‍ය නැත.
+Enter employee name	සේවක නම ඇතුළත් කරන්න
+Please enter employee name	සේවක නම ඇතුළත් කරන්න
+Please enter phone number	දුරකථන අංකය ඇතුළත් කරන්න
+Please select Work Location Type	සේවා ස්ථාන වර්ගය තෝරන්න
+Please select a location	ස්ථානය තෝරන්න
+Please select employee role	සේවක තනතුර තෝරන්න
+Enter a valid Sri Lankan phone number	වලංගු ශ්‍රී ලංකා දුරකථන අංකයක් ඇතුළත් කරන්න
+Enter a valid Sri Lankan phone number, e.g. 0771234567	වලංගු ශ්‍රී ලංකා දුරකථන අංකයක් ඇතුළත් කරන්න. උදා: 0771234567
+Enter a valid number, e.g. 0771234567 or +94771234567	වලංගු අංකයක් ඇතුළත් කරන්න. උදා: 0771234567 හෝ +94771234567
+Active employee	සක්‍රිය සේවකයා
+Annual leave allowance (blank = #)	වාර්ෂික නිවාඩු ප්‍රමාණය (හිස් = #)
+Already taken before using this app (default 0)	යෙදුම භාවිතයට පෙර ලබාගත් නිවාඩු (පෙරනිමි 0)
+Allowance year	නිවාඩු අදාළ වසර
+Enter annual allowance before recording used leave	ලබාගත් නිවාඩු ඇතුළත් කිරීමට පෙර වාර්ෂික ප්‍රමාණය ඇතුළත් කරන්න
+Use 0-366 days; already taken cannot exceed allowance	දින 0–366 භාවිත කරන්න. ලබාගත් ප්‍රමාණය අවසර ප්‍රමාණයට වඩා වැඩි විය නොහැක
+Use 0–366 whole days. Already taken cannot exceed the allowance	දින 0–366 අතර පූර්ණ අගයක් ඇතුළත් කරන්න. ලබාගත් ප්‍රමාණය අවසර ප්‍රමාණයට වඩා වැඩි විය නොහැක
+Enter site coordinates manually. You do not need to visit the site.	ස්ථානයේ ඛණ්ඩාංක ඇතුළත් කරන්න. එම ස්ථානයට යාම අවශ්‍ය නැත.
+Location Name	ස්ථානයේ නම
+Latitude	අක්ෂාංශය
+Longitude	දේශාංශය
+Allowed radius (meters)	අවසර ලත් අරය (මීටර්)
+Enter location name	ස්ථානයේ නම ඇතුළත් කරන්න
+Use Current GPS (optional)	වත්මන් GPS භාවිත කරන්න (අනිවාර්ය නොවේ)
+Getting GPS...	GPS ලබාගනිමින්...
+GPS unavailable. Enter the coordinates manually.	GPS ලබාගත නොහැක. ඛණ්ඩාංක ඇතුළත් කරන්න.
+GPS permission denied. You can still enter coordinates manually.	GPS අවසර නැත. ඛණ්ඩාංක ඇතුළත් කළ හැක.
+Location unavailable	ස්ථානය ලබාගත නොහැක
+Location settings	ස්ථාන සැකසුම්
+Location unavailable. Enable phone Location and try again.	ස්ථානය ලබාගත නොහැක. දුරකථනයේ ස්ථාන සේවාව සක්‍රිය කර නැවත උත්සාහ කරන්න.
+Location permission is required.	ස්ථාන අවසරය අවශ්‍යයි.
+Fake location detected. Check-in blocked. Turn off the mock location app and use real GPS.	ව්‍යාජ ස්ථානයක් හඳුනාගෙන ඇත. පැමිණීම අවහිරයි. ව්‍යාජ GPS අක්‍රිය කර සැබෑ GPS භාවිත කරන්න.
+Fake location report saved for admin review.	ව්‍යාජ GPS වාර්තාව පරිපාලක සමාලෝචනයට සුරකින ලදී.
+Company approval / unblock reason	ආයතනික අනුමැතිය / අවහිරය ඉවත් කිරීමේ හේතුව
+Company approval: unblock selected employee	ආයතනික අනුමැතිය: තෝරාගත් සේවක අවහිරය ඉවත් කරන්න
+Unblock attendance	පැමිණීමේ අවහිරය ඉවත් කරන්න
+Unblock attendance with company approval	ආයතනික අනුමැතියෙන් පැමිණීමේ අවහිරය ඉවත් කරන්න
+Approve unblock	අවහිරය ඉවත් කිරීමට අනුමැතිය දෙන්න
+Select a blocked employee first.	පළමුව අවහිර කළ සේවකයෙකු තෝරන්න.
+Attendance is unblocked. The employee must use real GPS.	පැමිණීමේ අවහිරය ඉවත් කර ඇත. සේවකයා සැබෑ GPS භාවිත කළ යුතුය.
+Company Holiday Calendar	ආයතනික නිවාඩු දින දර්ශනය
+Company holiday calendar	ආයතනික නිවාඩු දින දර්ශනය
+Company weekly holidays (tick only confirmed off-days)	සතිපතා ආයතනික නිවාඩු (තහවුරු කළ දින පමණක් තෝරන්න)
+Sunday	ඉරිදා
+Monday	සඳුදා
+Tuesday	අඟහරුවාදා
+Wednesday	බදාදා
+Thursday	බ්‍රහස්පතින්දා
+Friday	සිකුරාදා
+Saturday	සෙනසුරාදා
+Confirm holiday calendar coverage	නිවාඩු දින දර්ශන කාලසීමාව තහවුරු කරන්න
+Confirm complete holiday calendar	සම්පූර්ණ නිවාඩු දින දර්ශනය තහවුරු කරන්න
+Block selected date as holiday	තෝරාගත් දිනය නිවාඩුවක් ලෙස අවහිර කරන්න
+Remove selected holiday	තෝරාගත් නිවාඩුව ඉවත් කරන්න
+Refresh holiday calendar	නිවාඩු දින දර්ශනය යාවත්කාලීන කරන්න
+Remove holiday	නිවාඩුව ඉවත් කරන්න
+Review first	පළමුව සමාලෝචනය කරන්න
+Holiday name, e.g. Poya holiday	නිවාඩුවේ නම, උදා: පෝය නිවාඩුව
+Enter holiday name	නිවාඩුවේ නම ඇතුළත් කරන්න
+Add every public, Poya and company holiday before confirming coverage.	කාලසීමාව තහවුරු කිරීමට පෙර සියලු රජයේ, පෝය හා ආයතනික නිවාඩු එක් කරන්න.
+No holidays saved yet.	තවම නිවාඩු සුරැකී නැත.
+Choose both coverage dates. From must be on or before To.	කාලසීමාවේ දින දෙකම තෝරන්න. ආරම්භක දිනය අවසන් දිනයට පෙර හෝ එම දිනය විය යුතුය.
+Preparing PDF...	PDF සකසමින්...
+Creating PDF...	PDF සකසමින්...
+PDF is being prepared. Please wait.	PDF සකසමින් පවතී. රැඳී සිටින්න.
+PDF could not be created. Please try again.	PDF සකස් කළ නොහැකි විය. නැවත උත්සාහ කරන්න.
+PDF could not be saved. Choose a destination and try again.	PDF සුරැකීමට නොහැකි විය. ස්ථානයක් තෝරා නැවත උත්සාහ කරන්න.
+PDF could not be shared. Please try again.	PDF බෙදාගත නොහැකි විය. නැවත උත්සාහ කරන්න.
+PDF downloaded/saved successfully to the location you selected.	PDF තෝරාගත් ස්ථානයේ සුරකින ලදී.
+PDF prepared successfully. Choose an app to share it.	PDF සකසා ඇත. බෙදාගැනීමට යෙදුමක් තෝරන්න.
+PDF save cancelled.	PDF සුරැකීම අවලංගුයි.
+Preparing leave sheet PDF. Choose a destination when the save window opens.	නිවාඩු PDF සකසමින්. සුරැකීමේ කවුළුව විවෘත වූ විට ස්ථානයක් තෝරන්න.
+Report unavailable. Tap Reload daily report.	වාර්තාව නොමැත. දෛනික වාර්තාව නැවත ලබාගන්න.
+Loading employees...	සේවකයින් ලබාගනිමින්...
+Loading employees…	සේවකයින් ලබාගනිමින්...
+Loading employee details and saved locations...	සේවක තොරතුරු හා ස්ථාන ලබාගනිමින්...
+Loading work locations...	සේවා ස්ථාන ලබාගනිමින්...
+Loading work locations from the server...	සේවා ස්ථාන ලබාගනිමින්...
+Loading attendance history...	පැමිණීමේ ඉතිහාසය ලබාගනිමින්...
+Loading saved attendance…	පැමිණීමේ වාර්තා ලබාගනිමින්...
+Loading today’s attendance...	අද පැමිණීමේ දත්ත ලබාගනිමින්...
+Loading daily report...	දෛනික වාර්තාව ලබාගනිමින්...
+Loading recent notifications...	නව දැනුම්දීම් ලබාගනිමින්...
+Loading notifications...	දැනුම්දීම් ලබාගනිමින්...
+Loading pending leave requests...	අනුමැතිය බලාපොරොත්තු වන ඉල්ලීම් ලබාගනිමින්...
+Loading location exceptions...	ස්ථාන අවවාද ලබාගනිමින්...
+Loading previous location…	පෙර ස්ථානය ලබාගනිමින්...
+Loading holiday policy...	නිවාඩු නීති ලබාගනිමින්...
+Loading holidays...	නිවාඩු ලබාගනිමින්...
+Loading confirmed coverage...	තහවුරු කළ කාලසීමාව ලබාගනිමින්...
+Loading…	ලබාගනිමින්...
+Loading...	ලබාගනිමින්...
+Locations unavailable. Tap Reload locations.	ස්ථාන නොමැත. නැවත ලබාගන්න.
+Employee / No.	සේවකයා / අංකය
+Dept / Leave date	අංශය / නිවාඩු දිනය
+Applied / Status	ඉල්ලූ දිනය / තත්ත්වය
+Reason / Decision	හේතුව / තීරණය
+Worked / Earned	වැඩ කළ / හිමි
+Used / Pending	ලබාගත් / බලාපොරොත්තු වන
+Available	ලබාගත හැකි
+Date	දිනය
+Employee	සේවකයා
+Department	අංශය
+Check In	පැමිණීම
+Check Out	පිටවීම
+Status / Site	තත්ත්වය / ස්ථානය
+Name / Number	නම / අංකය
+Phone	දුරකථනය
+Work Location	සේවා ස්ථානය
+Annual / Used / Available	වාර්ෂික / ලබාගත් / ඉතිරි
+ON TIME	නියමිත වේලාවට
+LATE	ප්‍රමාදයි
+ABSENT	නොපැමිණි
+CHECKED OUT	පිටවී ඇත
+OUTSIDE LOCATION	ස්ථානයෙන් පිටත
+INSIDE LOCATION	ස්ථානය තුළ
+Completed	සම්පූර්ණයි
+Working	සේවයේ
+Not configured	සකසා නැත
+Not set	සකසා නැත
+Requests: 	ඉල්ලීම්: 
+From: 	ආරම්භය: 
+To: 	අවසානය: 
+Selected date: 	තෝරාගත් දිනය: 
+Leave date: 	නිවාඩු දිනය: 
+Completed work days: 	වැඩ කළ සම්පූර්ණ දින: 
+Earned: 	හිමි: 
+Approved: 	අනුමත: 
+Pending: 	බලාපොරොත්තු වන: 
+Available: 	ඉතිරි: 
+Taken: 	ලබාගත්: 
+Remaining: 	ඉතිරි: 
+Reason: 	හේතුව: 
+Decision note: 	තීරණ සටහන: 
+Welcome, 	ආයුබෝවන්, 
+Role: 	තනතුර: 
+Check In: 	පැමිණීම: 
+Check Out: 	පිටවීම: 
+Work location: 	සේවා ස්ථානය: 
+Selected site: 	තෝරාගත් ස්ථානය: 
+Daily Attendance Report - 	දෛනික පැමිණීමේ වාර්තාව - 
+All employees: 	සියලු සේවකයින්: 
+Sales Officers: 	විකුණුම් නිලධාරීන්: 
+Office Staff: 	කාර්යාල සේවකයින්: 
+Hotel Staff: 	හෝටල් සේවකයින්: 
+Employees: 	සේවකයින්: 
+Saved records: 	සුරැකි වාර්තා: 
+Saved attendance: 	සුරැකි පැමිණීම්: 
+Completed: 	සම්පූර්ණ: 
+Overall Total: 	මුළු එකතුව: 
+On Time: 	නියමිත වේලාවට: 
+Late: 	ප්‍රමාද: 
+Absent: 	නොපැමිණි: 
+Checked Out: 	පිටවූ: 
+Coverage start: 	කාලසීමා ආරම්භය: 
+Coverage end: 	කාලසීමා අවසානය: 
+Holiday date: 	නිවාඩු දිනය: 
+Confirmed range: 	තහවුරු කළ කාලසීමාව: 
+Blocked holidays:	අවහිර කළ නිවාඩු:
+Recent notifications: 	මෑත දැනුම්දීම්: 
+Unread in this list: 	මෙම ලැයිස්තුවේ නොකියවූ: 
+Unread among latest 50 alerts: 	අවසන් දැනුම්දීම් 50 අතර නොකියවූ: 
+Waiting for Chairman Sir's approval: 	සභාපතිතුමාගේ අනුමැතිය බලාපොරොත්තුවෙන්: 
+Attendance blocked after fake GPS: 	ව්‍යාජ GPS නිසා අවහිර කළ පැමිණීම්: 
+Fresh outside-location reports: 	නව ස්ථානයෙන් පිටත වාර්තා: 
+New leave request	නව නිවාඩු ඉල්ලීම
+Leave approved	නිවාඩුව අනුමතයි
+Leave rejected	නිවාඩුව ප්‍රතික්ෂේපයි
+Fake location detected	ව්‍යාජ ස්ථානයක් හඳුනාගෙන ඇත
+Employee outside assigned location	සේවකයා නියමිත ස්ථානයෙන් පිටත
+Showing saved offline notifications.	සුරැකි දැනුම්දීම් පෙන්වයි.
+Only records saved in the database are shown.	සුරැකි වාර්තා පමණක් පෙන්වයි.
+Tap an employee row to edit details.	තොරතුරු වෙනස් කිරීමට සේවක පේළිය තෝරන්න.
+Tap an employee row to inspect their location.	ස්ථානය බැලීමට සේවක පේළිය තෝරන්න.
+Tap Refresh to retry.	නැවත උත්සාහ කිරීමට යාවත්කාලීන කරන්න.
+Tap Refresh leave sheet to retry.	නිවාඩු ලේඛනය යාවත්කාලීන කර නැවත උත්සාහ කරන්න.
+Tap Refresh leave sheet, then retry download.	නිවාඩු ලේඛනය යාවත්කාලීන කර නැවත බාගන්න.
+Refresh approval status before submitting again.	නැවත යැවීමට පෙර අනුමැති තත්ත්වය යාවත්කාලීන කරන්න.
+Tap Refresh balance / approval status to retry.	ශේෂය / අනුමැති තත්ත්වය යාවත්කාලීන කර නැවත උත්සාහ කරන්න.
+Office / Hotel annual leave: configured per employee by admin.	කාර්යාල / හෝටල් වාර්ෂික නිවාඩු: පරිපාලක එක් එක් සේවකයාට සකසයි.
+Unconfirmed quota / Casual / Sick leave: #	තහවුරු නොකළ ප්‍රමාණය / අනියම් / අසනීප නිවාඩු: #
+Select an assigned site.	අනුයුක්ත ස්ථානයක් තෝරන්න.
+Select an employee from Employee List.	සේවක ලැයිස්තුවෙන් සේවකයෙකු තෝරන්න.
+Employee information is unavailable. Sign in again.	සේවක තොරතුරු නොමැත. නැවත පිවිසෙන්න.
+Employee information not found.	සේවක තොරතුරු හමු නොවීය.
+Employee record not found.	සේවක වාර්තාව හමු නොවීය.
+Employee account is inactive.	සේවක ගිණුම අක්‍රියයි.
+No work location assigned.	සේවා ස්ථානයක් අනුයුක්ත කර නැත.
+No fixed location. Employee can Check In from anywhere.	ස්ථිර ස්ථානයක් නැත. සේවකයාට ඕනෑම ස්ථානයකින් පැමිණීම සටහන් කළ හැක.
+Work location GPS data is incomplete.	සේවා ස්ථානයේ GPS දත්ත අසම්පූර්ණයි.
+Work location not found.	සේවා ස්ථානය හමු නොවීය.
+Notifications unavailable. Please try again.	දැනුම්දීම් නොමැත. නැවත උත්සාහ කරන්න.
+This device is already registered for notifications.	මෙම දුරකථනය දැනටමත් දැනුම්දීම් සඳහා ලියාපදිංචියි.
+Sign in before registering phone notifications.	දැනුම්දීම් ලියාපදිංචියට පෙර පිවිසෙන්න.
+Allowance and already-taken leave must be whole numbers from 0–366	නිවාඩු ප්‍රමාණ හා ලබාගත් නිවාඩු දින 0–366 අතර පූර්ණ අගයන් විය යුතුය
+An employee save is still in progress. Wait for its result before reloading.	සේවකයා සුරකිමින් පවතී. නැවත ලබාගැනීමට පෙර රැඳී සිටින්න.
+Assigned sites are not loaded. Tap Retry loading employee / sites before saving.	ස්ථාන ලබාගෙන නැත. සුරැකීමට පෙර සේවක / ස්ථාන දත්ත නැවත ලබාගන්න.
+Attendance is blocked after a fake GPS report. Ask an admin for company approval to unblock it, then use real GPS.	ව්‍යාජ GPS වාර්තාවක් නිසා පැමිණීම අවහිරයි. පරිපාලකගෙන් ආයතනික අනුමැතිය ලබාගෙන සැබෑ GPS භාවිත කරන්න.
+By requesting an OTP you agree to phone verification through Firebase. Enter the 6-digit SMS code.	OTP ඉල්ලීමෙන් Firebase හරහා දුරකථන තහවුරු කිරීමට එකඟ වේ. ඉලක්කම් 6ක SMS කේතය ඇතුළත් කරන්න.
+Connect to mobile data/Wi-Fi, then tap Refresh. Your reason and selected date are kept.	අන්තර්ජාලයට සම්බන්ධ වී යාවත්කාලීන කරන්න. හේතුව හා තෝරාගත් දිනය තබා ඇත.
+Employee changes are still being saved. Please wait.	සේවක වෙනස්කම් සුරකිමින්. රැඳී සිටින්න.
+Employee details are not loaded. Use Retry loading employee / sites first.	සේවක තොරතුරු ලබාගෙන නැත. පළමුව සේවක / ස්ථාන දත්ත නැවත ලබාගන්න.
+Employee details changed. Log in with your current registered phone number.	සේවක තොරතුරු වෙනස් වී ඇත. වත්මන් ලියාපදිංචි අංකයෙන් පිවිසෙන්න.
+Employee save is still in progress. Please wait for the result.	සේවකයා සුරකිමින්. ප්‍රතිඵලය ලැබෙන තෙක් රැඳී සිටින්න.
+Enter an approval reason (at least 3 characters).	අනුමැති හේතුව ඇතුළත් කරන්න (අවම අක්ෂර 3ක්).
+Fixed work locations are not available yet. Tap Refresh saved locations. If there are no sites, add one first.	ස්ථිර ස්ථාන නොමැත. සුරැකි ස්ථාන යාවත්කාලීන කරන්න. ස්ථාන නැතිනම් පළමුව එක් කරන්න.
+GPS is still loading. Wait for its result before saving the location.	GPS ලබාගනිමින් පවතී. ස්ථානය සුරැකීමට පෙර රැඳී සිටින්න.
+Invalid leave response. Open My leave details and tap Refresh.	නිවාඩු තොරතුරු ලබාගත නොහැක. මගේ නිවාඩු පිටුවෙන් යාවත්කාලීන කරන්න.
+Leave balance is unavailable while offline. Open My leave details, connect to mobile data/Wi-Fi and tap Refresh.	අන්තර්ජාලය නොමැතිව ශේෂය ලබාගත නොහැක. සම්බන්ධ වී මගේ නිවාඩු පිටුව යාවත්කාලීන කරන්න.
+Leave history could not be refreshed. Existing requests have not been deleted.	නිවාඩු ඉතිහාසය යාවත්කාලීන කළ නොහැකි විය. පවතින ඉල්ලීම් මකා නැත.
+Load the holiday policy before changing coverage. Tap Refresh.	කාලසීමාව වෙනස් කිරීමට පෙර නිවාඩු නීති යාවත්කාලීන කරන්න.
+Load the report first, or wait for the current PDF.	පළමුව වාර්තාව ලබාගන්න හෝ වත්මන් PDF සකස් වන තෙක් රැඳී සිටින්න.
+Locations are not loaded. Refreshing saved locations; retry selection after loading finishes.	ස්ථාන ලබාගෙන නැත. ලබාගැනීම අවසන් වූ පසු නැවත තෝරන්න.
+No location available. Please add a location first.	ස්ථාන නොමැත. පළමුව ස්ථානයක් එක් කරන්න.
+No locations found. You can still use No Fixed Location.	ස්ථාන හමු නොවීය. ස්ථිර ස්ථානයක් නැත යන්න භාවිත කළ හැක.
+No saved locations. Add Location first for fixed-location employees.	සුරැකි ස්ථාන නැත. ස්ථිර සේවා ස්ථාන සඳහා පළමුව ස්ථානයක් එක් කරන්න.
+No saved locations. Add Location first, or choose No Fixed Location.	සුරැකි ස්ථාන නැත. ස්ථානයක් එක් කරන්න හෝ ස්ථිර ස්ථානයක් නැත යන්න තෝරන්න.
+No saved sites. Add Location first, or choose No Fixed Location.	සුරැකි ස්ථාන නැත. ස්ථානයක් එක් කරන්න හෝ ස්ථිර ස්ථානයක් නැත යන්න තෝරන්න.
+No saved locations. Add a location first.	සුරැකි ස්ථාන නැත. පළමුව ස්ථානයක් එක් කරන්න.
+Office / Hotel: edit the allowance year, annual quota and already-taken leave below. Blank annual allowance remains #.	කාර්යාල / හෝටල්: වසර, වාර්ෂික නිවාඩු ප්‍රමාණය හා ලබාගත් නිවාඩු වෙනස් කරන්න. හිස් වාර්ෂික ප්‍රමාණය # ලෙස පෙන්වයි.
+Only approve after reviewing the fake GPS report. The employee must still turn off mock GPS. New fake readings will block attendance again.	ව්‍යාජ GPS වාර්තාව සමාලෝචනයෙන් පසු අනුමත කරන්න. සේවකයා ව්‍යාජ GPS අක්‍රිය කළ යුතුය. නැවත ව්‍යාජ GPS හමු වුවහොත් අවහිරය නැවත ක්‍රියාත්මක වේ.
+Phone Location is turned off. Turn it on in phone Settings, or enter coordinates manually.	දුරකථන ස්ථාන සේවාව අක්‍රියයි. එය සක්‍රිය කරන්න හෝ ඛණ්ඩාංක ඇතුළත් කරන්න.
+Phone changes require the employee to log in with the new number. Attendance / leave history stays under the same employee ID. Decide pending leave before changing department.	අංකය වෙනස් කළ පසු සේවකයා නව අංකයෙන් පිවිසිය යුතුය. පැමිණීම / නිවාඩු ඉතිහාසය රැඳේ. අංශය වෙනස් කිරීමට පෙර pending නිවාඩු තීරණය කරන්න.
+Phone notifications are off. You can still read alerts in the Notifications page.	දුරකථන දැනුම්දීම් අක්‍රියයි. දැනුම්දීම් පිටුවෙන් ඒවා කියවිය හැක.
+Profile loading failed. Retry verification or request a new code.	සේවක තොරතුරු ලබාගත නොහැකි විය. නැවත තහවුරු කරන්න හෝ නව කේතයක් ඉල්ලන්න.
+The prepared PDF is unavailable. Generate the report again.	සකස් කළ PDF නොමැත. වාර්තාව නැවත සකසන්න.
+The server returned an invalid leave response. Tap Refresh to retry.	නිවාඩු තොරතුරු ලබාගත නොහැක. යාවත්කාලීන කර නැවත උත්සාහ කරන්න.
+Turn on phone Location and allow location access for ShiftNest Attendance. Use Precise location for a fixed work site. Move to an open area, wait for a GPS fix and retry. No check-in has been saved by this attempt.	දුරකථන ස්ථාන සේවාව හා ShiftNest Attendance ස්ථාන අවසරය සක්‍රිය කරන්න. ස්ථිර සේවා ස්ථානයට නිවැරදි GPS අවශ්‍යයි. විවෘත ප්‍රදේශයක සිට නැවත උත්සාහ කරන්න. මෙම උත්සාහයේ පැමිණීම සුරැකී නැත.
+Use whole days 0-366, used <= allowance, and a valid year	දින 0–366 අතර පූර්ණ අගයක් හා වලංගු වසරක් භාවිත කරන්න. ලබාගත් ප්‍රමාණය නිවාඩු ප්‍රමාණයට වඩා වැඩි විය නොහැක
+Wait for the attendance request to finish before refreshing.	යාවත්කාලීන කිරීමට පෙර පැමිණීමේ ඉල්ලීම අවසන් වන තෙක් රැඳී සිටින්න.
+Wait for the employee save to finish before refreshing locations.	ස්ථාන යාවත්කාලීන කිරීමට පෙර සේවකයා සුරැකීම අවසන් වන තෙක් රැඳී සිටින්න.
+Wait for the employee save to finish.	සේවකයා සුරැකීම අවසන් වන තෙක් රැඳී සිටින්න.
+Wait for the save to finish.	සුරැකීම අවසන් වන තෙක් රැඳී සිටින්න.
+Work locations are loading/unavailable. Use Retry loading if this does not finish.	සේවා ස්ථාන ලබාගනිමින් හෝ ලබාගත නොහැක. අවසන් නොවන්නේ නම් නැවත ලබාගන්න.
+Retry loading employee / sites	සේවක / ස්ථාන දත්ත නැවත ලබාගන්න
+Select an option	විකල්පයක් තෝරන්න
+Office Staff (Staff Officers)	කාර්යාල සේවකයින් (නිලධාරීන්)
+No choices loaded. Refresh this page.	විකල්ප ලබාගෙන නැත. මෙම පිටුව යාවත්කාලීන කරන්න.
+Employee No.	සේවක අංකය
+Name	නම
+Assigned site	අනුයුක්ත ස්ථානය
+Status	තත්ත්වය
+Employee name must be 120 characters or fewer	සේවක නම අක්ෂර 120ට අඩු විය යුතුය
+Enter allowance before recording used leave	ලබාගත් නිවාඩු ඇතුළත් කිරීමට පෙර නිවාඩු ප්‍රමාණය ඇතුළත් කරන්න
+Enter valid employee details.	වලංගු සේවක තොරතුරු ඇතුළත් කරන්න.
+Choose a work location type.	සේවා ස්ථාන වර්ගයක් තෝරන්න.
+Choose an assigned site.	අනුයුක්ත ස්ථානයක් තෝරන්න.
+Assigned site does not exist.	අනුයුක්ත ස්ථානය නොමැත.
+Reject or decide pending leave requests before changing department.	අංශය වෙනස් කිරීමට පෙර pending නිවාඩු ඉල්ලීම් සඳහා තීරණ ලබාදෙන්න.
+Employee is inactive.	සේවකයා අක්‍රියයි.
+Admin access required	පරිපාලක ප්‍රවේශය අවශ්‍යයි
+Employee profile unavailable	සේවක තොරතුරු නොමැත
+New • 	නව • 
+Work location tracking is active	සේවා ස්ථාන නිරීක්ෂණය ක්‍රියාත්මකයි
+Location tracking stopped.	ස්ථාන නිරීක්ෂණය නවතා ඇත.
+Loading assigned sites...	අනුයුක්ත ස්ථාන ලබාගනිමින්...
+Select Employee Role	සේවක තනතුර තෝරන්න
+Tap Load attendance to retry.	පැමිණීමේ දත්ත නැවත ලබාගන්න.
+Tap Refresh attendance / leave balance.	පැමිණීම / නිවාඩු ශේෂය යාවත්කාලීන කරන්න.
+Tap Refresh attendance history to retry.	පැමිණීමේ ඉතිහාසය යාවත්කාලීන කරන්න.
+Tap Refresh dashboard alerts.	ප්‍රධාන පිටුවේ දැනුම්දීම් යාවත්කාලීන කරන්න.
+Tap Refresh employees to retry.	සේවකයින් යාවත්කාලීන කරන්න.
+Tap Refresh holiday calendar.	නිවාඩු දින දර්ශනය යාවත්කාලීන කරන්න.
+Open My leave details and tap Refresh.	මගේ නිවාඩු පිටුව විවෘත කර යාවත්කාලීන කරන්න.
+Open Notifications or Refresh to retry.	දැනුම්දීම් පිටුව විවෘත කරන්න හෝ යාවත්කාලීන කරන්න.
+Open Location Tracking for details. All departments with fixed sites are included.	විස්තර සඳහා ස්ථාන නිරීක්ෂණය විවෘත කරන්න. ස්ථිර ස්ථාන ඇති සියලු අංශ ඇතුළත්ය.
+Red = outside assigned radius. GPS older than 5 minutes is marked stale.	රතු = නියමිත අරයෙන් පිටත. විනාඩි 5කට වඩා පැරණි GPS දත්ත පැරණි ලෙස පෙන්වයි.
+Only registered employees can log in	ලියාපදිංචි සේවකයින්ට පමණක් පිවිසිය හැක
+Pending approvals	අනුමැතිය බලාපොරොත්තු වන ඉල්ලීම්
+Sales balances use completed work days. Office / Hotel balances use the leave-date year’s configured allowance; pending requests reserve leave.	විකුණුම් ශේෂය සම්පූර්ණ වැඩ දින අනුව ගණනය කෙරේ. කාර්යාල / හෝටල් ශේෂය නිවාඩුවේ වසරේ ප්‍රමාණය අනුවයි. Pending ඉල්ලීම් නිවාඩු වෙන් කරයි.
+View saved locations	සුරැකි ස්ථාන බලන්න
+Latitude (-90 to 90)	අක්ෂාංශය (-90 සිට 90)
+Longitude (-180 to 180)	දේශාංශය (-180 සිට 180)
+Allowed radius in meters	අවසර ලත් අරය මීටර් වලින්
+Today's attendance	අද පැමිණීම
+Verify Otp	OTP තහවුරු කරන්න
+ATTENDANCE BLOCKED: fake GPS report. Company approval required.	පැමිණීම අවහිරයි: ව්‍යාජ GPS වාර්තාවක් ඇත. ආයතනික අනුමැතිය අවශ්‍යයි.
+Notification device registered successfully. Enable phone notification permission to receive alerts in the notification tray.	දුරකථනය දැනුම්දීම් සඳහා ලියාපදිංචියි. ඒවා ලැබීමට දුරකථන දැනුම්දීම් අවසරය සක්‍රිය කරන්න.
+NEW • 	නව • 
+Select leave date	නිවාඩු දිනය තෝරන්න
+Leave Sheet: From date	නිවාඩු ලේඛනය: ආරම්භක දිනය
+Leave Sheet: To date	නිවාඩු ලේඛනය: අවසන් දිනය
+Attendance: From date	පැමිණීම: ආරම්භක දිනය
+Attendance: To date	පැමිණීම: අවසන් දිනය
+Choose holiday date	නිවාඩු දිනය තෝරන්න
+Holiday coverage: From	නිවාඩු කාලසීමාව: ආරම්භය
+Holiday coverage: To	නිවාඩු කාලසීමාව: අවසානය
+Active	සක්‍රියයි
+Inactive	අක්‍රියයි
+Login failed	පිවිසීම අසාර්ථකයි
+Username lookup failed	පරිශීලක නාමය ලබාගත නොහැකි විය
+Email/password login failed	ඊමේල් / මුරපද පිවිසීම අසාර්ථකයි
+Admin access check failed	පරිපාලක ප්‍රවේශය පරීක්ෂා කළ නොහැකි විය
+Admin record missing	පරිපාලක වාර්තාව නොමැත
+Admin access disabled	පරිපාලක ප්‍රවේශය අක්‍රියයි
+No email was returned for this username.	මෙම පරිශීලක නාමයේ ඊමේල් ලබාගත නොහැකි විය.
+Please try signing in again.	නැවත පිවිසීමට උත්සාහ කරන්න.
+Login timed out. Check internet and try again.	පිවිසීමේ කාලය අවසන් විය. අන්තර්ජාලය පරීක්ෂා කර නැවත උත්සාහ කරන්න.
+ATTENDANCE HISTORY	පැමිණීමේ ඉතිහාසය
+CHECK OUT SUCCESSFUL!	පිටවීම සාර්ථකයි!
+Employee Performance	සේවක ක්‍රියාකාරිත්වය
+Overall Summary	සමස්ත සාරාංශය
+Department Summary	අංශ සාරාංශය
+Today's Overview	අද සාරාංශය
+Year (2000-2100)	වසර (2000–2100)
+Latitude (-90 to 90)	අක්ෂාංශය (-90 සිට 90)
+Longitude (-180 to 180)	දේශාංශය (-180 සිට 180)
+Allowed Radius (meters)	අවසර ලත් අරය (මීටර්)
+Username	පරිශීලක නාමය
+Email or Username	ඊමේල් හෝ පරිශීලක නාමය
+Department Calendar	අංශ දින දර්ශනය
+Holiday calendar / Department notices	නිවාඩු දින දර්ශනය / අංශ දැනුම්දීම්
+Choose the department receiving this calendar update.	මෙම දින දර්ශන දැනුම්දීම ලබන අංශය තෝරන්න.
+Select schedule date	වැඩසටහනේ දිනය තෝරන්න
+Date: 	දිනය: 
+Department: 	අංශය: 
+Holiday	නිවාඩු දිනය
+Holiday — no work scheduled	නිවාඩු දිනය — වැඩ නියම කර නැත
+Working day	වැඩ කරන දිනය
+Working hours: 	වැඩ පැය: 
+Reason / employee message	හේතුව / සේවක පණිවිඩය
+Save calendar & notify department	දින දර්ශනය සුරකින්න හා අංශයට දැනුම් දෙන්න
+Notices announce schedules; they do not automatically check employees in or out. Global public/company holidays still apply.	මෙය වැඩසටහන් දැනුම්දීමකි. සේවක පැමිණීම හෝ පිටවීම ස්වයංක්‍රීයව සටහන් නොකෙරේ. පොදු නිවාඩු නීති තවදුරටත් බලපායි.
+Loading department calendar...	අංශ දින දර්ශනය ලබාගනිමින්...
+Refresh department calendar	අංශ දින දර්ශනය යාවත්කාලීන කරන්න
+Saved department calendar:	සුරැකි අංශ දින දර්ශනය:
+Select today or a future date.	අද හෝ ඉදිරි දිනයක් තෝරන්න.
+Enter a reason (up to 500 characters).	හේතුවක් ඇතුළත් කරන්න (අක්ෂර 500 දක්වා).
+Check-out must be later than check-in on the same day.	එදින පිටවීමේ වේලාව පැමිණීමේ වේලාවට පසු විය යුතුය.
+Select valid check-in and check-out times.	වලංගු පැමිණීමේ හා පිටවීමේ වේලා තෝරන්න.
+Calendar saved. Department notification queued.	දින දර්ශනය සුරකින ලදී. අංශ දැනුම්දීම යැවීමට සූදානම් කර ඇත.
+Department calendar update	අංශ දින දර්ශන යාවත්කාලීනය
+New admin notifications: 	නව පරිපාලක දැනුම්දීම්: 
+Tap to view all notifications.	සියලු දැනුම්දීම් බැලීමට තට්ටු කරන්න.
+Load older notifications	පැරණි දැනුම්දීම් ලබාගන්න
+Select a department.	අංශයක් තෝරන්න.
+Refresh before sending a changed notice.	වෙනස් කළ දැනුම්දීමක් යැවීමට පෙර යාවත්කාලීන කරන්න.
+Show removed employees	ඉවත් කළ සේවකයින් පෙන්වන්න
+Removed	ඉවත් කර ඇත
+Removed employee	ඉවත් කළ සේවකයා
+Remove Employee	සේවකයා ඉවත් කරන්න
+Removing employee...	සේවකයා ඉවත් කරමින්...
+Employee removed. History is kept.	සේවකයා ඉවත් කර ඇත. ඉතිහාසය රඳවා ඇත.
+Tap an employee row to edit or remove.	වෙනස් කිරීමට හෝ ඉවත් කිරීමට සේවක පේළිය තෝරන්න.
+Wait for the employee removal to finish.	සේවකයා ඉවත් කිරීම අවසන් වන තෙක් රැඳී සිටින්න.
+Decide pending leave requests before removing this employee.	සේවකයා ඉවත් කිරීමට පෙර pending නිවාඩු ඉල්ලීම් සඳහා තීරණ ලබාදෙන්න.
+To restore this employee, open Edit and enable Active employee.	සේවකයා නැවත සක්‍රිය කිරීමට Edit විවෘත කර Active employee තෝරන්න.
+Remove this employee from the list and disable login? Attendance and leave history are kept. The phone number remains reserved for this employee.	සේවකයා ලැයිස්තුවෙන් ඉවත් කර පිවිසුම අක්‍රිය කරන්නද? පැමිණීම සහ නිවාඩු ඉතිහාසය රැඳේ. අංකය මෙම සේවකයා සඳහා වෙන්ව පවතී.
+My Attendance	මගේ පැමිණීම
+Back to Admin Panel	පරිපාලක පිටුවට ආපසු
+Loading my employee profile...	මගේ සේවක තොරතුරු ලබාගනිමින්...
+My employee phone number	මගේ සේවක දුරකථන අංකය
+Link my employee record	මගේ සේවක වාර්තාව සම්බන්ධ කරන්න
+Open My Attendance	මගේ පැමිණීම විවෘත කරන්න
+Link your admin login to your own active employee record. Add your employee record first if it is missing.	ඔබගේ පරිපාලක පිවිසුම ඔබගේ සක්‍රිය සේවක වාර්තාවට සම්බන්ධ කරන්න. වාර්තාව නොමැති නම් පළමුව එක් කරන්න.
+Link your admin account to your employee record first.	පළමුව පරිපාලක ගිණුම ඔබගේ සේවක වාර්තාවට සම්බන්ධ කරන්න.
+Your linked employee record is unavailable.	ඔබගේ සම්බන්ධ කළ සේවක වාර්තාව නොමැත.
+Add one active employee record with your phone number first.	පළමුව ඔබගේ දුරකථන අංකය සහිත සක්‍රිය සේවක වාර්තාවක් එක් කරන්න.
+Your admin account is already linked. Contact the company administrator to change it.	පරිපාලක ගිණුම දැනටමත් සම්බන්ධ කර ඇත. වෙනස් කිරීමට ආයතනික පරිපාලක අමතන්න.
+This employee record is linked to another administrator.	මෙම සේවක වාර්තාව වෙනත් පරිපාලකයෙකුට සම්බන්ධ කර ඇත.
+Another administrator must record the Chairman decision for your own leave.	ඔබගේම නිවාඩුවට සභාපති තීරණය වෙනත් පරිපාලකයෙකු විසින් සටහන් කළ යුතුය.
+Sales Holiday Calendar	විකුණුම් නිලධාරී නිවාඩු දින දර්ශනය
+Sales holiday calendar	විකුණුම් නිලධාරී නිවාඩු දින දර්ශනය
+Holiday leave restrictions apply to Sales Officers only.	නිවාඩු දිනවල leave සීමාව විකුණුම් නිලධාරීන්ට පමණක් බලපායි.
+Notices announce schedules; they do not automatically check employees in or out. Holiday leave restrictions apply to Sales Officers only.	මෙය වැඩසටහන් දැනුම්දීමකි. පැමිණීම හෝ පිටවීම ස්වයංක්‍රීයව සටහන් නොකෙරේ. නිවාඩු දින leave සීමාව විකුණුම් නිලධාරීන්ට පමණි.

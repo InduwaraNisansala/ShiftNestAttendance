@@ -1,0 +1,7 @@
+Demo ports: Auth 9099; Firestore 8180; Functions 5001.
+Extract into G:\ShiftNestAttendance-v1.3.24 and open the inner ShiftNestAttendance folder.
+Keep the old folder as a backup. If preserving demo history, stop its LOCAL BACKEND with Ctrl+C and wait for export, then copy only its demo-data folder into the same-brand new project. Do not copy company demo data into the public portfolio project.
+Start the new project's START-DEMO.bat ONCE, not START-BACKEND-ONLY.bat for the initial upgrade. It builds and installs the new demo APK when Android SDK/device are available. Otherwise open the new project in Android Studio, select demoDebug and run it. Existing app data should be kept; no uninstall/data wipe is requested.
+Keep LOCAL BACKEND open. With the emulator running, run CONNECT-EMULATOR.bat from the NEW folder and use 127.0.0.1 in the app. This reverse script now includes 8180.
+Run only one brand backend at a time. AgentService stays running on 8080. If a NEW required port is occupied, launcher must stop with a clear error; do not kill an unidentified service.
+All v1.3.23 security code/features remain. Production still needs the setup in SECURITY-SETUP-v1.3.23.md. Local demo success does not attest a real phone.

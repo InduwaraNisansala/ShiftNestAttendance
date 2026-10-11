@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+ <application android:label="ShiftNest Attendance Demo" android:allowBackup="false" android:usesCleartextTraffic="true" tools:replace="android:label,android:allowBackup">
+  <meta-data android:name="firebase_messaging_auto_init_enabled" android:value="false"/>
+  <meta-data android:name="firebase_analytics_collection_enabled" android:value="false"/>
+  <activity android:name=".EmployeeLoginActivity" android:exported="false" tools:replace="android:exported"><intent-filter tools:node="removeAll"/></activity>
+  <activity android:name=".DemoConnectionActivity" android:exported="true" tools:replace="android:exported">
+   <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter>
+  </activity>
+  <service android:name=".ShiftNestMessagingService" tools:node="remove"/>
+ </application>
+</manifest>

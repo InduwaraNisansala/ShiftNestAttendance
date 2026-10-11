@@ -1,0 +1,5 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="360dp" android:height="800dp" android:viewportWidth="360" android:viewportHeight="800">
+<path android:fillColor="@color/shiftnest_gold" android:pathData="M0,60 C36,58 69,33 93,0 L77,0 C58,28 31,48 0,55 Z"/>
+<path android:fillColor="@android:color/transparent" android:strokeColor="@color/shiftnest_gold" android:strokeWidth="0.7" android:pathData="M0,66 C40,60 72,26 121,0 M235,800 C277,755 313,742 360,727"/>
+<path android:fillColor="@color/shiftnest_gold" android:pathData="M247,800 C282,770 323,751 360,747 L360,738 C314,748 277,770 237,800 Z"/>
+</vector>

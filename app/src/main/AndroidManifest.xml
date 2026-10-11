@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <application android:name=".ShiftNestApplication" android:allowBackup="true" android:icon="@mipmap/shiftnest_launcher" android:label="ShiftNest Attendance" android:roundIcon="@mipmap/shiftnest_launcher" android:supportsRtl="true" android:theme="@style/Theme.ShiftNest.Design">
+
+        <activity android:name=".VerifyOtpActivity" android:exported="false"/>
+
+        <activity android:name=".EmployeeDashboardActivity" android:exported="false"/>
+
+        <activity android:name=".AdminDashboardActivity" android:exported="false"/>
+
+        <activity android:name=".EmployeeLoginActivity" android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".AdminLoginActivity" android:exported="false"/>
+
+        <activity android:name=".MainActivity" android:exported="false"/>
+
+        <activity android:name=".EditEmployeeActivity" android:exported="false"/>
+        <activity android:name=".AddEmployeeActivity" android:exported="false"/>
+
+        <activity android:name=".AddLocationActivity" android:exported="false"/>
+
+        <activity android:name=".EmployeeListActivity" android:exported="false"/>
+
+        <activity android:name=".AttendanceHistoryActivity" android:exported="false"/>
+
+        <service android:name=".LocationTrackingService" android:enabled="true" android:exported="false" android:foregroundServiceType="location"/>
+
+        <activity android:name=".AttendanceReportActivity" android:exported="false"/>
+
+
+        <activity android:name=".AdminLocationTrackingActivity" android:exported="false"/>
+
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="YOUR_GOOGLE_MAPS_API_KEY"/>
+
+        <provider android:name="androidx.core.content.FileProvider" android:authorities="${applicationId}.fileprovider" android:exported="false" android:grantUriPermissions="true">
+
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+
+        </provider>
+
+    <activity android:name=".SettingsActivity" android:exported="false"/><activity android:name=".EmployeeLeaveActivity" android:exported="false"/><activity android:name=".LeaveSheetActivity" android:exported="false"/><activity android:name=".HolidayCalendarActivity" android:exported="false"/><activity android:name=".DailyAttendanceReportActivity" android:exported="false"/><activity android:name=".NotificationsActivity" android:exported="false"/>
+    <service android:name=".ShiftNestMessagingService" android:exported="false"><intent-filter><action android:name="com.google.firebase.MESSAGING_EVENT"/></intent-filter></service>
+    <activity android:name=".DepartmentCalendarActivity" android:exported="false"/>
+    <activity android:name=".DemoConnectionActivity" android:exported="false"/>
+    <activity android:name=".AdminPersonalActivity" android:exported="false"/>
+    <activity android:name=".WorkNoticeActivity" android:exported="false"/>
+    <activity android:name=".StorageHealthActivity" android:exported="false"/>
+    </application>
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION"/>
+
+</manifest>

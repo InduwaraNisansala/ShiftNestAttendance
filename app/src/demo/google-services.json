@@ -1,0 +1,28 @@
+{
+  "project_info": {
+    "project_number": "123456789012",
+    "project_id": "demo-shiftnest-attendance",
+    "storage_bucket": "demo-shiftnest-attendance.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123456789012:android:0123456789abcdef012345",
+        "android_client_info": {
+          "package_name": "com.shiftnest.attendance.demo"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "AIzaSy000000000000000000000000000000000"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

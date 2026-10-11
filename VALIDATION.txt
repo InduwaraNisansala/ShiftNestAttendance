@@ -1,0 +1,8 @@
+PASS: 81 backend/policy/workflow tests per brand using in-memory Firestore. Actual secure attendance/message handlers exercised for validated identity/clock/site, malicious fields, GPS quality, app verification, token reuse, request deduplication, state transitions, leave and admin linkage.
+PASS: 46 application Java classes parse; XML/resource/manifest references resolve.
+PASS: extracted actual limited-use token and GPS client methods; static server-only attendance/GPS write paths.
+PASS: extracted actual report/button methods and daily PDF site details/pagination.
+NOT RUN: full Android build, real rules emulator integration, live cryptographic Play Integrity/token consumption, physical-phone/background/push or Windows launcher tests.
+REQUIRED: coordinated production APK + backend + rules deployment and mandatory App Check configuration in SECURITY-SETUP-v1.3.23.md. No live setup/deployment performed here.
+
+v1.3.24: demo Firestore config/client/bootstrap/ADB reverse/seed/smoke-test guards consistently updated from 8080 to 8180. Production configuration remains unchanged except version number. No Windows launch or APK build performed here.

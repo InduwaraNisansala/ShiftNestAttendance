@@ -1,0 +1,14 @@
+<resources>
+    <color name="shiftnest_bg">#0B192D</color>
+    <color name="shiftnest_surface">#12243F</color>
+    <color name="shiftnest_text">#F3F5F9</color>
+    <color name="shiftnest_hint">#D5C48F</color>
+    <color name="shiftnest_heading">#F0CB68</color>
+    <color name="shiftnest_border">#D4AF37</color>
+    <color name="shiftnest_gold">#D4AF37</color>
+    <color name="shiftnest_primary_top">#F4D371</color>
+    <color name="shiftnest_primary_bottom">#B88B2E</color>
+    <color name="shiftnest_on_primary">#102440</color>
+    <color name="shiftnest_secondary">#F0CB68</color>
+    <color name="shiftnest_bg_bottom">#142B4C</color>
+</resources>

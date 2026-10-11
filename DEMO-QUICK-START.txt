@@ -1,0 +1,9 @@
+ShiftNest Attendance v1.3.21
+
+EASIEST: Extract the entire ZIP, open inner ShiftNestAttendance folder, run START-DEMO.bat.
+Read OPEN-ME-FIRST.txt. Internet is required for initial downloads; Android SDK is required for building.
+Keep the separate LOCAL BACKEND window open. Virtual phone address: 10.0.2.2.
+Admin: admin@shiftnest.test / ShiftNestDemo123!
+OTP codes are in the backend window, not real SMS.
+
+Manual setup remains documented in demo\DEMO-SETUP.md.

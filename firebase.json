@@ -1,0 +1,1 @@
+{"functions":[{"source":"functions","codebase":"shiftnest"}],"firestore":{"rules":"firestore.rules","indexes":"firestore.indexes.json"},"emulators":{"firestore":{"port":8180},"functions":{"port":5001},"auth":{"port":9099},"ui":{"enabled":false}}}

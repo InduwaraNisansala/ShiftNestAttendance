@@ -1,0 +1,68 @@
+DASHBOARD / REPORT UPDATE v1.3.21
+Check In > Add Location > Check Out. Add Location starts disabled, enables only after confirmed check-in, remains usable for repeated additions, and disables during attendance requests or after checkout. This applies to employees and linked admin My Attendance.
+Mark returned & notify admin is removed from the form. Historical return records are retained.
+Attendance Report's Status/Site cell includes typed check-in/out details. Daily summary/charts now includes a separate employee site/location table and the daily PDF includes full wrapped site details. Pie/bar charts still count attendance status; site names are in the accompanying table, not numerical chart labels.
+Existing late messages, leave rules, GPS restrictions and retention/storage features remain.
+
+INSTALL
+Stop the previous LOCAL BACKEND before starting the backend from this new folder. The setup can reuse an already-running old backend, so stop that window first to load these new functions/rules.
+Extract each copy separately and open its inner project folder in Android Studio. Rebuild/install the demo using START-DEMO.bat; backend-only does not install UI changes.
+The old Java 21 daemon criterion is backed up as .bak to avoid the IDE sync failure seen on this PC. The demo launcher still prepares Java 21 for its command-line build/backend.
+For this user's emulator connection: after backend READY and emulator boot, run CONNECT-EMULATOR.bat, then enter 127.0.0.1 in the app and Connect. Keep LOCAL BACKEND running.
+Do not copy company demo-data into the public portfolio copy.
+
+CHECK-IN / CHECK-OUT
+Both buttons require Site name and Location, e.g. Urban Lux / Kandana. Existing check-in GPS validation stays active. Attendance Report shows the typed details.
+
+ShiftNest Attendance v1.3.21 - late messages, outside destinations and data budget
+
+INSTALL THE NEW APP AND BACKEND
+Extract to F:\ShiftNestAttendance-v1.3.21. Stop the previous LOCAL BACKEND.
+Use only this independent demo dataset. Do not copy company demo-data or employee records.
+Open the new inner folder in Android Studio; Sync. START-DEMO.bat builds/installs the updated demo APK and starts the new backend. Do NOT use SkipBuild for this first install.
+After READY run CONNECT-EMULATOR.bat; use 127.0.0.1. Keep LOCAL BACKEND open.
+An old installed APK does not gain these new screens until rebuilt/installed.
+
+LATE CHECK-IN MESSAGE
+Employee Dashboard OR admin > My Attendance > Running late? Message admin.
+Enter the reason, Send. This also works before check-in.
+Admin receives an in-app notification (and production push when available).
+Attendance Report has a Late message column. A person who has not checked in still has a message row marked No check-in recorded.
+Daily summary / morning report includes late messages, with full explanations in the exported PDF appendix. Open/reload reports to load new saved messages; no manual typing by admin is needed. A previously downloaded PDF is a snapshot and must be regenerated.
+Sending a message does not check you in, excuse lateness or approve leave.
+Corrections update the report's latest explanation; immutable workEvents keep earlier messages.
+After checkout, messages for that work day are blocked.
+On an uncertain network timeout use Retry the same message: the request ID prevents duplicate alerts/events.
+
+OUTSIDE DESTINATION AFTER CHECK-IN
+Employee Dashboard OR My Attendance > Add Location.
+Enter Site name, Location and reason; current real GPS is captured; submit.
+The backend selects GREEN for no-fixed-site employees and RED for fixed-site employees.
+Admin > Notifications / Alerts shows the colored message. Production system notifications use a color accent; Android controls their final appearance.
+The return button is removed. Add as many locations as needed between check-in and check-out. Each addition keeps its own saved event and colored admin notification.
+This does not change the assigned location, approve travel, stop tracking or suppress existing out-of-radius/mock-GPS alerts. Those protections continue.
+All employee categories and linked admin employee accounts use the same server ownership checks.
+
+LONG-TERM ATTENDANCE DATA AND STORAGE
+No automatic attendance expiration or cleanup is added. Client attendance deletion is now denied by rules. Old dates remain selectable in reports; a two-month default display is only a filter.
+The project owner must check externally configured TTL policies, backups, IAM and account billing. This app cannot prevent an owner from deleting the database or stop an externally configured TTL policy.
+Admin > Data retention / Storage budget: enter your warning budget in MiB and percentage (50-95), save, then Check data size now. Example: 500 MiB / 80% is YOUR chosen warning budget, not a Firebase capacity claim.
+The check estimates selected application document JSON payloads, not actual Firebase free space. Indexes, backups, cloud overhead and unknown collections are excluded. Up to 100000 documents are scanned with paginated reads; an incomplete/error scan explicitly says space is unknown.
+Warning messages tell admin to check actual Firebase Usage/Billing, export a private backup, and review the budget with the project owner. No records are deleted to clear a warning.
+Production scheduled function checks daily at 06:00 Asia/Colombo after deployment. Local emulators use the manual Check button; do not expect their scheduler to run automatically.
+The scan consumes Firestore reads in production; the project owner should review its cost for a large history and set actual Cloud Monitoring/billing alerts separately.
+Keep full database exports/backups in a private bucket/account with restricted IAM and encryption. PDF reports are useful snapshots, not restorable database backups. Do not put employee records or backups on GitHub.
+Use authorized Cloud Console scheduled backups and private exports for long-term recovery. No live backup settings, IAM, TTL or billing were changed by this ZIP.
+
+PRODUCTION SETUP
+Rebuild the production app, then deploy functions and firestore rules/indexes to your explicitly confirmed project. New callables: submitWorkNotice, saveStorageBudget, getStorageHealth, checkStorageHealth.
+New triggers: workEventAlerts, systemStorageAlerts; dailyStorageHealth is a scheduler function. Configure scheduling/billing permissions as required by Firebase before live deployment.
+Do not deploy to the local demo project. Nothing in this delivery deploys to your cloud account.
+
+VALIDATION
+73 backend/policy/workflow tests, including authenticated admin personal messages, pre-check-in late messages, idempotent retries, red/green colors, outing/return transitions, storage authorization, warning thresholds and no attendance deletion.
+Java source/resource/manifest checks and extracted attendance-state tests are included.
+Not verified here: full Android APK build, real phone, Windows launchers, actual Firebase rules emulator integration, push delivery, production scheduler or real storage usage.
+
+PORTFOLIO COPY
+Company Firebase config is omitted. Production requires your own project/config, signing and authorized deployment. README.md contains the GitHub/CV guidance.

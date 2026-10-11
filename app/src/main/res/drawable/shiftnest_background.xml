@@ -1,0 +1,1 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"><item><shape><gradient android:angle="270" android:startColor="@color/shiftnest_bg_bottom" android:endColor="@color/shiftnest_bg"/></shape></item><item android:drawable="@drawable/shiftnest_decorations"/></layer-list>

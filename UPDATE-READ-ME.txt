@@ -1,0 +1,5 @@
+ShiftNest Attendance v1.3.21
+Read NEW-FEATURES-v1.3.21.txt first.
+START-DEMO.bat must rebuild/install this new APK; START-BACKEND-ONLY.bat is only for later restarts.
+Check-in/out and leave policy fixes from v1.3.21 are retained.
+Read NEW-FEATURES-v1.3.21.txt. Stop the old backend before launching the updated backend.

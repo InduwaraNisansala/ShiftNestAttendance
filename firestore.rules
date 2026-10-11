@@ -1,0 +1,61 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signed() { return request.auth != null; }
+    function admin() { return signed() && exists(/databases/$(database)/documents/admins/$(request.auth.uid)) && get(/databases/$(database)/documents/admins/$(request.auth.uid)).data.active == true; }
+    function currentDate(date) { let local = request.time + duration.value(330, 'm'); let parts = date.split('-'); return parts.size() == 3 && int(parts[0]) == local.year() && int(parts[1]) == local.month() && int(parts[2]) == local.day(); }
+    function onLeave(date, id) { let key=id+'_'+date; return (exists(/databases/$(database)/documents/leaveEmployeeDates/$(key)) && get(/databases/$(database)/documents/leaveEmployeeDates/$(key)).data.status == 'approved') || exists(/databases/$(database)/documents/leaveDateLocks/$(date)) && get(/databases/$(database)/documents/leaveDateLocks/$(date)).data.status == 'approved' && get(/databases/$(database)/documents/leaveDateLocks/$(date)).data.employeeId == id; }
+    function ownLinked(id) { return admin() && get(/databases/$(database)/documents/admins/$(request.auth.uid)).data.get('employeeId', '') == id && get(/databases/$(database)/documents/employees/$(id)).data.get('adminUid', '') == request.auth.uid; }
+    function mine(id) { return signed() && exists(/databases/$(database)/documents/employees/$(id)) && get(/databases/$(database)/documents/employees/$(id)).data.active == true && (ownLinked(id) || get(/databases/$(database)/documents/employees/$(id)).data.phone == request.auth.token.get('phone_number', '')); }
+    match /admins/{uid} { allow get: if signed() && request.auth.uid == uid; allow list, write: if false; }
+    match /adminEmployeeLinks/{id} { allow read: if admin(); allow write: if false; }
+    match /employeeRemovals/{id} { allow read: if admin(); allow write: if false; }
+    match /employeePhones/{id} { allow read, write: if false; }
+    match /adminUsernames/{id} { allow read, write: if false; }
+    match /employees/{id} {
+      allow read: if admin() || (signed() && resource.data.phone == request.auth.token.get('phone_number', ''));
+      allow write: if false;
+    }
+    match /locations/{id} { allow read: if signed(); allow write: if admin(); }
+    function placeLabel(v) { return v is string && v.size() > 0 && v.size() <= 120 && v.matches('.*[^ \t\r\n].*'); }
+    match /attendance/{id} {
+      allow read: if admin() || mine(resource.data.employeeId);
+      allow create, update, delete: if false; // Attendance is written only by verified server callables.
+    }
+    match /attendanceReceipts/{id} { allow read, write: if false; }
+    match /locationLogs/{id} {
+      allow read: if admin() || mine(resource.data.employeeId);
+      allow write: if false;
+    }
+    match /latestLocations/{id} { allow read: if admin() || mine(id); allow write: if false; }
+    match /leaveRequests/{id} { allow read: if admin() || mine(resource.data.employeeId); allow write: if false; }
+    match /leaveAccounts/{id} { allow read: if admin() || mine(id); allow write: if false; }
+    match /leaveEmployeeDates/{id} { allow read: if admin() || mine(resource.data.employeeId); allow write: if false; }
+    match /leaveDateLocks/{id} { allow read: if admin(); allow write: if false; }
+    match /departmentCalendars/{department}/days/{date} { allow read: if signed(); allow write: if false; }
+    match /departmentNotices/{id} { allow read: if admin(); allow write: if false; }
+    match /employeeNotices/{employeeId}/items/{id} {
+      allow read: if mine(employeeId);
+      allow update: if mine(employeeId) && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['read']) && request.resource.data.read is bool;
+      allow create, delete: if false;
+    }
+    match /holidays/{id} { allow read: if signed(); allow write: if admin(); }
+    match /settings/{id} { allow read: if signed() && (id != "storageBudget" || admin()); allow write: if admin() && id != "storageBudget" && id != "attendanceSecurity"; }
+    match /notifications/{uid}/items/{id} {
+      allow read: if signed() && request.auth.uid == uid;
+      allow update: if signed() && request.auth.uid == uid && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['read']) && request.resource.data.read is bool;
+      allow create, delete: if false;
+    }
+    match /attendanceBlockReleases/{id} { allow read: if admin(); allow write: if false; }
+    match /mockLocationReports/{id} { allow read, write: if false; }
+    match /deviceTokens/{id} { allow read, write: if false; }
+    match /alertOutbox/{id} { allow read, write: if false; }
+    match /locationAlertState/{id} { allow read, write: if false; }
+    match /attendanceNotices/{id} { allow read: if admin() || mine(resource.data.employeeId); allow write: if false; }
+    match /attendanceOutings/{id} { allow read: if admin() || mine(resource.data.employeeId); allow write: if false; }
+    match /workEvents/{id} { allow read: if admin() || mine(resource.data.employeeId); allow write: if false; }
+    match /systemHealth/{id} { allow read: if admin(); allow write: if false; }
+    match /systemAlerts/{id} { allow read: if admin(); allow write: if false; }
+    match /{document=**} { allow read, write: if false; }
+  }
+}

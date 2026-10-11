@@ -1,0 +1,30 @@
+<resources>
+    <style name="Theme.ShiftNest.Design" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/shiftnest_secondary</item>
+        <item name="colorPrimaryVariant">@color/shiftnest_bg</item>
+        <item name="colorOnPrimary">@color/shiftnest_on_primary</item>
+        <item name="colorSecondary">@color/shiftnest_secondary</item>
+        <item name="colorOnSecondary">@color/shiftnest_on_primary</item>
+        <item name="colorSurface">@color/shiftnest_surface</item>
+        <item name="colorOnSurface">@color/shiftnest_text</item>
+        <item name="colorControlNormal">@color/shiftnest_secondary</item>
+        <item name="colorControlActivated">@color/shiftnest_secondary</item>
+        <item name="android:colorBackground">@color/shiftnest_bg</item>
+        <item name="android:windowBackground">@color/shiftnest_bg</item>
+        <item name="android:textColorPrimary">@color/shiftnest_text</item>
+        <item name="android:textColorSecondary">@color/shiftnest_hint</item>
+        <item name="android:statusBarColor">@color/shiftnest_bg</item>
+        <item name="android:navigationBarColor">@color/shiftnest_bg</item>
+        <item name="android:windowLightStatusBar">@bool/shiftnest_light_bars</item>
+        <item name="android:windowLightNavigationBar">@bool/shiftnest_light_bars</item>
+        <item name="android:fontFamily">sans</item>
+    </style>
+    <style name="ShiftNestDatePickerTheme" parent="ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <item name="colorPrimary">@color/shiftnest_heading</item>
+        <item name="colorOnPrimary">@color/shiftnest_on_primary</item>
+        <item name="colorSurface">@color/shiftnest_surface</item>
+        <item name="colorOnSurface">@color/shiftnest_text</item>
+        <item name="android:textColorPrimary">@color/shiftnest_text</item>
+        <item name="android:textColorSecondary">@color/shiftnest_hint</item>
+    </style>
+</resources>

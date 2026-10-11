@@ -1,0 +1,6 @@
+ShiftNest Attendance v1.3.21
+Start with README.md and UPDATE-READ-ME.txt.
+Local demo: START-DEMO.bat, then CONNECT-EMULATOR.bat.
+Admin: admin@shiftnest.test / ShiftNestDemo123!
+Employee demo phones: 0770000001, 0770000002, 0770000003
+Production requires your own Firebase config; company config is omitted.
